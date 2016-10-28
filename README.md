@@ -1,5 +1,6 @@
 # Dynamic-Network-Surgery
-Dynamic network surgery is a very effective method for DNN compression. 
+Dynamic network surgery is a very effective method for DNN compression. To use it, you will need a [classic version](https://github.com/BVLC/caffe/tree/0dfc5dac3d8bf17f833e21ae6ce7bc3ea19a03fa) of [Caffe](http://caffe.berkeleyvision.org) framework.
+For the convolutional and fully-connected layers to be pruned, change their layer types to "CConvolution" and "CInnerProduct" respectively. Then, pass the "cconvlution_param" and "cinner_product_param" message to these modified layers with specified parameters for better pruning performance.
 
 Please cite our work in your publications if it helps your research:
 

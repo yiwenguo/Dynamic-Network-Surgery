@@ -203,5 +203,6 @@ STUB_GPU(CConvolutionLayer);
 #endif
 
 INSTANTIATE_CLASS(CConvolutionLayer);
+REGISTER_LAYER_CLASS(CConvolution);
 
 }  // namespace caffe

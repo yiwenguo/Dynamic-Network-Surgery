@@ -62,8 +62,8 @@ shared_ptr<Layer<Dtype> > GetCConvolutionLayer(
   }
 }
 
-//REGISTER_LAYER_CREATOR(CConvolution, GetCConvolutionLayer);
 //Comment on this for the error "Check failed: registry.count(type) == 0 (1 vs. 0) Layer type CConvolution already registered."
+//REGISTER_LAYER_CREATOR(CConvolution, GetCConvolutionLayer);
 /********************************************************/
 
 // Get pooling layer according to engine.

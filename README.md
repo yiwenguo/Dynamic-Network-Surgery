@@ -1,7 +1,7 @@
 # Dynamic network surgery
 
 Dynamic network surgery is a very effective method for DNN pruning. To better use it with python and matlab, you may also need a [classic version](https://github.com/BVLC/caffe/tree/0dfc5dac3d8bf17f833e21ae6ce7bc3ea19a03fa) of the [Caffe framework](http://caffe.berkeleyvision.org).
-For the convolutional and fully-connected layers to be pruned, change their layer types to "CConvolution" and "CInnerProduct" respectively. Then, pass the "cconvlution_param" and "cinner_product_param" messages to these modified layers for better pruning performance. 
+For the convolutional and fully-connected layers to be pruned, change their layer types to "CConvolution" and "CInnerProduct" respectively. Then, pass "cconvlution_param" and "cinner_product_param" messages to these modified layers for better pruning performance. 
 
 # Example for usage
 
